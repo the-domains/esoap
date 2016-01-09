@@ -1,28 +1,40 @@
-name: eSoap
-favicon: null
-layout_spectrum: 0.3297461417969316
-typography_spectrum: 0.589482007548213
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.8802698
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#ADD7F6'
-    - '#87BFFF'
-    - '#3F8EFC'
-    - '#2667FF'
-    - '#3B28CC'
-  brandStrength: 0.6150113840121776
-  lightness: 0.15973685099743307
-  saturation: 0.8995689896401018
-  rhythmicContrast: 0.825940317241475
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.8995689896401018
+  brandStrength: 0.6150113840121776
+  lightness: 0.1597368509974331
+  brandColors:
+    - '#0E151E'
+    - '#4A7FE1'
+    - '#A4A288'
+    - '#F2A280'
+    - '#525480'
+  rhythmicContrast: 0.825940317241475
+typography_spectrum: 0.589482007548213
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: eSoap
