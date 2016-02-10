@@ -1,4 +1,8 @@
-layout_spectrum: 0.8802698
+favicon: null
+cta:
+  bucket: null
+  version: null
+  domain: null
 opengraph:
   image: null
   type: null
@@ -9,32 +13,28 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 0.8995689896401018
   brandStrength: 0.6150113840121776
-  lightness: 0.1597368509974331
+  rhythmicContrast: 0.825940317241475
   brandColors:
     - '#0E151E'
     - '#4A7FE1'
     - '#A4A288'
     - '#F2A280'
     - '#525480'
-  rhythmicContrast: 0.825940317241475
+  lightness: 0.1597368509974331
 typography_spectrum: 0.589482007548213
-cta:
-  bucket: null
-  version: null
-  domain: null
+layout_spectrum: 0.9485666
 analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
 name: eSoap
